@@ -1687,6 +1687,12 @@ input[type="date"] {
   color-scheme: dark;
 }
 
+@media (max-width: 600px) {
+  #dueDate {
+    width: 100%;
+  }
+}
+
 .task-left {
     display: flex;
     align-items: center;
