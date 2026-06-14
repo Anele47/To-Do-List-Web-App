@@ -24,27 +24,27 @@ Features
 Technologies Used
 
 HTML5
--CSS3 (Flexbox + Animations)
--JavaScript (Vanilla JS)
--LocalStorage (data persistence)
--Chart.js (analytics graphs)
--Font Awesome (icons)
+- CSS3 (Flexbox + Animations)
+- JavaScript (Vanilla JS)
+- LocalStorage (data persistence)
+- Chart.js (analytics graphs)
+- Font Awesome (icons)
 
 ---
  Key Analytics
 - Weekly task completion chart
 - Monthly productivity chart
--Priority breakdown (important vs normal)
--Streak tracking (consecutive productive days)
--Completion rate calculation
+- Priority breakdown (important vs normal)
+- Streak tracking (consecutive productive days)
+- Completion rate calculation
 
 ---
 How It Works
--User logs in or signs up
--Username/email is stored as currentUser
--Tasks are saved using:
--tasks_currentUser
--Each page loads only that user’s data from localStorage
--Analytics and profile pages calculate stats from stored tasks
+- User logs in or signs up
+- Username/email is stored as currentUser
+- Tasks are saved using:
+- tasks_currentUser
+- Each page loads only that user’s data from localStorage
+- Analytics and profile pages calculate stats from stored tasks
 
 
