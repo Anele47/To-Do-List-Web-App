@@ -32,8 +32,8 @@ HTML5
 
 ---
  Key Analytics
--Weekly task completion chart
--Monthly productivity chart
+- Weekly task completion chart
+- Monthly productivity chart
 -Priority breakdown (important vs normal)
 -Streak tracking (consecutive productive days)
 -Completion rate calculation
