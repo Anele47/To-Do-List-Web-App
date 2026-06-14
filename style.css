@@ -1509,6 +1509,33 @@ button {
 .top-controls button:hover {
   background-color: #1b1864;
 }
+@media (max-width: 600px) {
+  .top-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* Row 1 */
+  #taskInput {
+    grid-column: 1;
+  }
+
+  #dueDate {
+    grid-column: 2;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Row 2 */
+  #prioritySelect {
+    grid-column: 1;
+  }
+
+  #addTaskBtn {
+    grid-column: 2;
+  }
+}
 
 #prioritySelect {
   color: gray;
